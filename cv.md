@@ -30,8 +30,6 @@ int main() { // this c++ code I implemented inside of one long conspect to switc
 default: cout << "Something is going wrong..." << endl; } return 0; }
 ```
 
-[nuorodos tekstas] (adresas "Aprasymas")
-
 ## Languages
 
 -   mother language:
