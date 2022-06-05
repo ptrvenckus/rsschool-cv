@@ -1,6 +1,6 @@
 # Petras Venckus CV
 
-![mein photo](./imgages/mano-nuotrauka.jpg "Petras Venckus")
+![mein photo](./images/mano-nuotrauka.jpg "Petras Venckus")
 
 ## Contact possibilities
 
