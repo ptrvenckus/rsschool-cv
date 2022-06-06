@@ -2,6 +2,8 @@
 
 # Petras Venckus
 
+---
+
 ## Contact possibilities
 
 -   **Address:** Reichenberger Str. 50a, 86161 Augsburg, BY Germany
@@ -57,4 +59,7 @@ return 0;
     -   russian
     -   spanish
 -   listen, read, basic understand: - french - polish
-    [RS School](https://app.rs.school/static/images/logo-rsschool3.png "rsschool logo")
+
+---
+
+![RS School](https://app.rs.school/static/images/logo-rsschool3.png "rsschool logo")
