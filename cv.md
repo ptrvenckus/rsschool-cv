@@ -60,7 +60,9 @@ return 0;
     -   german
     -   russian
     -   spanish
--   listen, read, basic understand: - french - polish
+-   listen, read, basic understand:
+    -   french
+    -   polish
 
 ---
 
