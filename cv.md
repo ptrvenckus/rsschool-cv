@@ -11,13 +11,15 @@
 
 ## Short about me
 
-    I have a 'Catholic theology" bachelor degree from VDU in Kaunas. I also finished a complete couse required for master degree, except of writing master thesis.
+    I have a "Catholic theology" bachelor degree from VDU in Kaunas.
+
+    I also finished Master course, except of writing Thesis for master degree.
 
 ## Work experience
 
-    October 2000 I emigrated in Spain and worked in construction and as a shop assistent.
+    In October 2000 I emigrated in Spain and worked as a shop assistent and in construction.
 
-    From July 2007 I am living in Germany. 2011 10 05 I started working in my present work place as warehouse assistant in "Amazon".
+    From July 2000 I am living in Germany. 2011 I started working in my present work place by Amazon as an warehouse assistant.
 
 ## My skills
 
