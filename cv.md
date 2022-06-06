@@ -1,4 +1,4 @@
-![mein photo](./images/mein-photo.jpg "Petras Venckus")
+![mein photo](./images/my-photo.jpg "Petras Venckus")
 
 # Petras Venckus
 
