@@ -1,1 +1,127 @@
-put html content here during the next task:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="style.css">
+ <title>rsschool-cv-html</title>
+</head>
+<body>
+ <header>
+  <img src="/rsschool-cv/images/my-photo.jpg" alt="ptrvenckus photo">
+  <h1>Petras Venckus</h1>
+  <nav>
+   <ul>
+    <li><a href="#contacts">Contact possibilities</a>
+    </li>
+    <li><a href="#short">Short about me</a></li>
+    <li><a href="#">Work experience</a></li>
+    <li><a href="#">My skills</a></li>
+    <li><a href="#">Code example</a></li>
+    <li><a href="#">Languages</a></li>
+   </ul>
+  </nav>
+ </header>
+ <section>
+  <h2 id="contacts">Contact possibilities</h2>
+  <ul>
+   <li><strong>Address:</strong> Reichenberger Str. 50a, 86161 Augsburg, BY Germany</li>
+   <li><strong>Email:</strong> <strong><em>ptrvenckus@gmail.com</em></strong></li> 
+  </ul>
+ </section>
+ <section>
+  <h2 id="short">Short about me</h2>
+  <article>
+   <h3>Education</h3>
+   <p>I have a "Catholic theology" bachelor degree from VDU in Kaunas.</p>
+   <p>I also finished Master course, except of writing Thesis for master degree.</p>
+  </article>
+  <article>
+   <h3>Work experience</h3>
+   <p>In October 2000 I emigrated in Spain and worked as a shop assistent and in construction.</p>
+   <p>From July 2000 I am living in Germany. 2011 I started working in my present work place by Amazon as an warehouse
+   assistant.</p>   
+  </article> 
+ </section>
+ <main>
+  <article>
+   <h3>My skills</h3>
+   <ul>
+    <li>Programming and markup
+     <ul>
+      <li>html</li>
+      <li>css</li>
+      <li>git</li>
+     </ul>
+    <li>Certifications
+     <ol>
+      <li><a
+        href="https://www.freecodecamp.org/certification/fcc9a3353ec-7080-47df-93c0-e5a7e8a0ad54/responsive-web-design">FCC
+        Responsive Web Design Certification</a></li>
+      <li><a
+        href="https://www.freecodecamp.org/certification/fcc9a3353ec-7080-47df-93c0-e5a7e8a0ad54/javascript-algorithms-and-data-structures">FCC
+        JavaScript Algorithms and Data Structures Certification</a></li>
+      </ol>
+    </li>
+   </ul>   
+  </article>
+  <article>
+   <h3>Languages</h3>
+   <ul>
+    <li>mother language:
+     <ul>
+      <li>lithuanian</li>
+     </ul>
+    </li>
+    <li>understand, conversation, read, write:
+     <ul>
+      <li>english</li>
+      <li>german</li>
+      <li>russian</li>
+      <li>spanish</li>
+     </ul>
+    </li>
+    <li>listen, read, basic understand:
+     <ul>
+      <li>french</li>
+      <li>polish</li>
+     </ul>
+    </li>
+   </ul>
+  </article>
+ </main>
+ <section>
+  <h2>Code example</h2>
+  <code>
+   int main() <br>
+   { <br>
+    /* this c++ code I implemented inside of one long conspect <br>to switch quickly between different topics */<br>
+   unsigned char chosenMethod; <br>
+   cout &lt;&lt; endl; <br>
+   cout &lt;&lt; "Please write a character, assigned to the method you want to run.\n"; <br>
+  } <br>
+  return 0; <br>
+ } <br>
+ cout &lt;&lt; "Available methods:\n'a': greeting(); 'A': variables(); 'b': salary(); 'B': sizes(); 
+ <br>// plus other methods" &lt;&lt; endl; <br>
+    cin >> chosenMethod; <br>
+    switch(chosenMethod) <br>
+    { <br>
+    case 'a': greeting(); break; <br>
+    case 'A': variables(); break; <br>// plus other cases 
+    <br>
+    default: cout &lt;&lt; "Something is going wrong..." &lt;&lt; endl; <br>
+    } <br>
+    return 0; <br>
+   } 
+  </code> 
+ </section>
+ <footer>
+  <a href="https://github.com/ptrvenckus">My GitHub</a>
+  <img src="https://app.rs.school/static/images/logo-rsschool3.png" alt="RS School">
+  <a href="https://rs.school/js/">Java Script/Front-end course</a>
+  <p>This CV is created <time datetime="2022-06-12">2022-06-12</time></p>
+ </footer>
+</body>
+</html>

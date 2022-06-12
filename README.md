@@ -1,1 +1,1 @@
-https://ptrvenckus.github.io/rsschool-cv/
+https://github.com/ptrvenckus/rsschool-cv/
