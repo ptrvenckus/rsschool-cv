@@ -4,8 +4,8 @@
 
 ## Contact information
 
-*__Address__: Reichenberger Str. 50a, 86161 Augsburg, BY Germany
-*__Email__: _ptrvenckus@gmail.com_
+* __Address__: Reichenberger Str. 50a, 86161 Augsburg, BY Germany
+* __Email__: _ptrvenckus@gmail.com_
 
 ## Short about me
 
@@ -57,7 +57,7 @@ From July 2007 I am living in Germany. October 2011 I started work in my present
    }
 
    return 0;
-   
+
   }
   ```
 
