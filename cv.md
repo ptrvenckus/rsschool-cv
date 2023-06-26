@@ -27,6 +27,40 @@ From July 2007 I am living in Germany. October 2011 I started work in my present
   * [Responsive web design certification] (https://www.freecodecamp.org/certification/fcc9a3353ec-7080-47df-93c0-e5a7e8a0ad54/responsive-web-design)
   * [JavaScript algorithms and data structures certification] (https://www.freecodecamp.org/certification/fcc9a3353ec-7080-47df-93c0-e5a7e8a0ad54/javascript-algorithms-and-data-structures)
 
+  ## Code example
+
+  ```
+  int main() {
+
+   unsigned char chosenMethod;
+
+   cout << endl;
+
+   cout << "Pease write a character, asigned to the method you want to run.\n" << endl; 
+
+   cout << "Available methods:\n 'a': greeting(), 'A': variables(), 'b': salary(), 'B': sizes()" << endl;
+
+   cin >> chosenMethod;
+
+   switch(chosenMethod) {
+
+    case 'a': greating(); break;
+
+    case 'A': variables(); break;
+
+    case 'b': salary(); break;
+
+    case 'B': sizes(); break;
+
+    default: cout << "Something is going wrong..." << endl;
+
+   }
+
+   return 0;
+   
+  }
+  ```
+
   ## Languages
 
   * mother language
