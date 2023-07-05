@@ -5,3 +5,38 @@ html {
  padding: 0;
  background: rgb(120, 120, 120);
 }
+
+/* main */
+.photo {
+ width: 30%;
+ border-radius: 50px;
+ display: block;
+ margin: 0 auto;
+}
+
+.main-title {
+ text-align: center;
+ padding-top: 30px;
+ font-size: 80px;
+ font-weight: 700;
+ color: #103304;
+}
+
+/* footer */
+.footer {
+ display: flex;
+ justify-content: space-around;
+ background-color: #ffffff;
+}
+
+.copyright {
+ width: 50%;
+ font-size: 50px;
+}
+
+.rsschool-logo {
+ /* original logo width: 800px, height: 198px */
+ padding: 50px 20px;
+ width: 10%;
+ height: 10%;
+}

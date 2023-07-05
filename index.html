@@ -3,36 +3,50 @@
 <head>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="style.css">
  <title>RSSchool CV HTML</title>
 </head>
 <body>
- <header>
+ <header class="header">
   <h1>rsschool cv</h1>
+  <nav class="navigation">
+   <ul>
+    <li><a href="#contact-me"></a>Contact</li>
+    <li><a href="#about-me"></a>About</li>
+    <li><a href="#work-experience">Experience</a></li>
+    <li><a href="my-skills">Skills</a></li>
+    <li><a href="#code-example">Code</a></li>
+    <li><a href="#languages"></a>Languages</li>
+   </ul>
+  </nav>
  </header>
- <main>
-  <h2>Petras Venckus</h2>
-  <img src="my-photo.jpg" alt="Petras Venckus photo">
+ <main class="main">
+  <img class="photo" src="./assets/img/my-photo.jpg" alt="Petras Venckus photo">
+  <h2 class="main-title">Petras Venckus</h2>
  </main>
- <section>
+ <section id="contact-me">
   <h2>Contact information</h2>
  </section>
- <section>
+ <section id="about-me">
   <h2>Short about me</h2>
  </section>
- <section>
+ <section id="work-experience">
   <h2>Work experience</h2>
  </section>
- <section>
+ <section id="my-skills">
   <h2>My skills</h2>
  </section>
- <section>
+ <section id="code-example">
   <h2>Code example</h2>
  </section>
- <section>
+ <section id="languages">
   <h2>Languages</h2>
  </section>
- <footer>
-  &copy; 2023
+ <footer class="footer">
+  <p class="copyright">&copy; 2023 Petras Venckus</p>
+  <!-- original image width: 800, height: 298 -->
+  <img class="rsschool-logo" src="./assets/img/rsschool-js-logo.png"
+  alt="Real Scope School Logo">
  </footer>
 </body>
 </html>
