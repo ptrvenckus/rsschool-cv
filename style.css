@@ -6,10 +6,39 @@ html {
  background: rgb(120, 120, 120);
 }
 
+/* header */
+.document-title {
+ text-align: center;
+ text-transform: uppercase;
+
+ font-size: 120px;
+ font-weight: 700;
+
+ color: #101f09;
+}
+
+.navigation-content {
+ display: flex;
+ justify-content: space-between;
+ background-color: #101f09;
+}
+
+.navigation-list {
+ width: 15%;
+ background-color: #575f54;
+}
+
+.navigation-link {
+ color: #120101;
+ text-decoration: none;
+ font-size: 30px;
+}
+
 /* main */
 .photo {
  width: 30%;
  border-radius: 50px;
+
  display: block;
  margin: 0 auto;
 }
@@ -17,15 +46,18 @@ html {
 .main-title {
  text-align: center;
  padding-top: 30px;
+
  font-size: 80px;
  font-weight: 700;
- color: #103304;
+
+ color: #101f09;
 }
 
 /* footer */
 .footer {
  display: flex;
  justify-content: space-around;
+
  background-color: #ffffff;
 }
 
