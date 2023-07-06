@@ -3,36 +3,109 @@
 <head>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="style.css">
  <title>RSSchool CV HTML</title>
 </head>
 <body>
- <header>
-  <h1>rsschool cv</h1>
+ <header class="header">
+  <nav>
+   <ul class="navigation-content">
+    <li class="navigation-list"><a class="navigation-link" href="#contact-me">Contact</a></li>
+    <li class="navigation-list"><a class="navigation-link" href="#about-me">About</a></li>
+    <li class="navigation-list"><a class="navigation-link" href="#work-experience">Experience</a></li>
+    <li class="navigation-list"><a class="navigation-link" href="my-skills">Skills</a></li>
+    <li class="navigation-list"><a class="navigation-link" href="#code-example">Code</a></li>
+    <li class="navigation-list"><a class="navigation-link" href="#languages">Languages</a></li>
+   </ul>
+  </nav>
+  <h1 class="document-title">rsschool cv</h1>
  </header>
- <main>
-  <h2>Petras Venckus</h2>
-  <img src="my-photo.jpg" alt="Petras Venckus photo">
+ <main class="main">
+  <img class="photo" src="./assets/img/my-photo.jpg" alt="Petras Venckus photo">
+  <h2 class="main-title">Petras Venckus</h2>
  </main>
- <section>
+ <section id="contact-me">
   <h2>Contact information</h2>
+  <ul class="contact-information">
+   <li><strong>Address:</strong> Reichenberger Str. 50a, 86161 Augsburg, BY Germany</li>
+   <li><strong>Email:</strong> <em>ptrvenckus@gmail.com</em></li>
+  </ul>
  </section>
- <section>
+ <section id="about-me">
   <h2>Short about me</h2>
+  <p>I have studied <strong>Catholic Theology</strong> at the University VDU in Kaunas and I have the bachelor degree.</p>
+  <p>I have some experience of work as a journalist.</p>
+  <p>I am very interested to learn web development and programming.</p>
  </section>
- <section>
+ <section id="work-experience">
   <h2>Work experience</h2>
+  <p>In October 2000 I emigrated to Spain and worked as a shop assistant and in the construction.</p>
+  <p>From July 2007 I am livin in Germany. In October 2011 I started work in my present work place as a warehouse assistant by Amazon.</p>
  </section>
- <section>
+ <section id="my-skills">
   <h2>My skills</h2>
+  <ul class="skills">
+   <li><a href="https://www.freecodecamp.org/certification/fcc9a3353ec-7080-47df-93c0-e5a7e8a0ad54/responsive-web-design">Responsive Web Design certification</a></li>
+   <li><a href="https://www.freecodecamp.org/certification/fcc9a3353ec-7080-47df-93c0-e5a7e8a0ad54/javascript-algorithms-and-data-structures">JavaScript algorithms and data structures certification</a></li>
+  </ul>
  </section>
- <section>
+ <section id="code-example">
   <h2>Code example</h2>
+  <code>
+      int main {<br><br>
+    
+      unsigned char chosenMethod;<br><br>
+
+      cout &lt;&lt; endl;<br><br>
+
+      cout &lt;&lt; "Please write a character assigned to the method you want to run.\n" &lt;&lt; endl;<br><br>
+
+      cin &gt;&gt; chosenMethod;<br><br>
+
+      switch (chosenMethod) {<br><br>
+
+      case 'a': greating(); break;<br><br>
+
+      case 'A': variables(); break;<br><br>
+
+      case 'b': salary(); break;<br><br>
+
+      case 'B': sizes(); break;<br><br>
+
+      default: cout &lt;&lt; "Something is going wrong ..." &lt;&lt; endl;<br><br>
+    
+      }<br><br>
+
+      return 0;<br><br>
+
+      }<br><br>
+  </code>
  </section>
- <section>
+ <section id="languages">
   <h2>Languages</h2>
+  <ul>
+   <li>Mother Language:
+    <ul>
+     <li>Lithuanian</li>
+    </ul>
+   </li>
+  </ul>
+  <ul>
+   <li>Read, write, conversation:
+    <ul>
+     <li>English</li>
+     <li>German</li>
+     <li>Russian</li>
+     <li>Spanish</li>
+    </ul>
+   </li>
+  </ul>
  </section>
- <footer>
-  &copy; 2023
+ <footer class="footer">
+  <p class="copyright">&copy; 2023 Petras Venckus</p>
+  <!-- original image width: 800, height: 298 -->
+  <img class="rsschool-logo" src="./assets/img/rsschool-js-logo.png"
+  alt="Real Scope School Logo">
  </footer>
 </body>
 </html>
