@@ -6,6 +6,10 @@ html {
  background: rgb(120, 120, 120);
 }
 
+a {
+ text-decoration: none;
+}
+
 /* header */
 .document-title {
  text-align: center;
