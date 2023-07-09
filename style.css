@@ -6,10 +6,6 @@ html {
  background: rgb(120, 120, 120);
 }
 
-a {
- text-decoration: none;
-}
-
 /* header */
 .document-title {
  text-align: center;
@@ -70,9 +66,19 @@ a {
  font-size: 50px;
 }
 
+.rsschool {
+ width: 50%;
+}
+
+.github-link,
+.rsschool-link {
+ text-decoration: none;
+}
+
+/* .rsschool-logo: original logo width: 800px, height: 198px */
 .rsschool-logo {
- /* original logo width: 800px, height: 198px */
- padding: 50px 20px;
- width: 10%;
- height: 10%;
+ width: 120px;
+ height: 40px;
+ padding-left: 50%;
+ padding-top: 40px;
 }
