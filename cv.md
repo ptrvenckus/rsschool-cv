@@ -1,5 +1,5 @@
 # rsschool-cv
-![Petras Venckus photo](my-photo.jpg)
+![Petras Venckus photo](./assets/img/my-photo.jpg)
 ## Petras Venckus
 
 ## Contact information
@@ -17,9 +17,9 @@ I am very interested to learn web development and programming.
 
 ## Work experience
 
-October 2000 I emigrated in Soain and worked as shop assistand and in the construction.
+October 2000 I emigrated in Spain and worked as a shop assistand and in the construction.
 
-From July 2007 I am living in Germany. October 2011 I started work in my present work placw, as a warehause assistant by Amazon.
+From July 2007 I am living in Germany. October 2011 I started work in my present work place as a warehause assistant by Amazon.
 
 ## My skills
 
