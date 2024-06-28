@@ -47,7 +47,15 @@ I have studied Catholic Theology in Vytautas Magnus University, Kaunas, Lithuani
 
 I have learned about web design in freeCodeCamp and other online courses and tutorials.
 
+## Languages
 
+I can write, speak, read:
+
+* english 
+* german
+* spanian
+* russian
+* lithuanian (mother language)
 
 
 
