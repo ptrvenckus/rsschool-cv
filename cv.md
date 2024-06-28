@@ -41,6 +41,12 @@ I have two certificates from freeCodeCamp:
 * [responsive web design certification](https://www.freecodecamp.org/certification/fcc9a3353ec-7080-47df-93c0-e5a7e8a0ad54/responsive-web-design)
 * [legacy javascript algorithms and data structures certification](https://www.freecodecamp.org/certification/fcc9a3353ec-7080-47df-93c0-e5a7e8a0ad54/javascript-algorithms-and-data-structures)
 
+## Education
+
+I have studied Catholic Theology in Vytautas Magnus University, Kaunas, Lithuania.
+
+I have learned about web design in freeCodeCamp and other online courses and tutorials.
+
 
 
 
