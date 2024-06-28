@@ -24,5 +24,14 @@ I have studied Catholic Theology. When I was a student I was working as a journa
 6. Figma basics
 7. Bash (Shell) basics
 
+## Code example
+
+```
+function greet() {
+  let myName = "Petras";
+  return `Hello! I am ${myName}.`;
+}
+```
+
 
 
