@@ -32,6 +32,16 @@ function greet() {
   return `Hello! I am ${myName}.`;
 }
 ```
+## Work experience
+
+I have very little work experience as a programmer. I have colaborated with programmers working in newspaper, but not in technical level. I can make webpage using html and css.
+
+I have two certificates from freeCodeCamp:
+
+* [responsive web design certification](https://www.freecodecamp.org/certification/fcc9a3353ec-7080-47df-93c0-e5a7e8a0ad54/responsive-web-design)
+* [legacy javascript algorithms and data structures certification](https://www.freecodecamp.org/certification/fcc9a3353ec-7080-47df-93c0-e5a7e8a0ad54/javascript-algorithms-and-data-structures)
+
+
 
 
 
