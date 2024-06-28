@@ -57,5 +57,9 @@ I can write, speak, read:
 * russian
 * lithuanian (mother language)
 
+[javascript pre-scchool](https://rs.school/courses/javascript-preschool-ru)
+
+[github: ptrvenckus](https://github.com/ptrvenckus)
+
 
 
