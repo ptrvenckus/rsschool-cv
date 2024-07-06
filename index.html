@@ -3,9 +3,103 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>CV</title>
   </head>
   <body>
-    <div class="container"></div>
+    <div class="container">
+      <header>
+        <h1 class="title">rsschool-cv</h1>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item"><a class="nav__link" href="#contacts">Contacts</a></li>
+            <li class="nav__item"><a class="nav__link" href="#about-me">About me</a></li>
+            <li class="nav__item"><a class="nav__link" href="#skills">Skills</a></li>
+            <li class="nav__item"><a class="nav__link" href="#code">Code example</a></li>
+            <li class="nav__item"><a class="nav__link" href="#work">Work experience</a></li>
+            <li class="nav__item"><a class="nav__link" href="#projects">Projects</a></li>
+            <li class="nav__item"><a class="nav__link" href="#education">Education</a></li>
+            <li class="nav__item"><a class="nav__link" href="#languages">Languages</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main class="main">
+        <section class="section photo-section">
+          <h2 class="subheading">Petras Venckus <br>(@ptrvenckus)</h2>
+          <img class="photo" src="./photo.jpg" alt="Petras Venckus photo">
+        </section>
+        <section id="contacts" class="section contacts-section">
+          <h2 class="subheading">Contacts</h2>
+          <ul class="contacts__list">
+            <li class="contacts__item"><strong>Address</strong>: <br>Reichenberger Str. 50a, <br>86161 Augsburg, <br>Germany</li>
+            <li class="contacts__item"><strong>Discord</strong>: <br><a href="https://discord.com/channels/@ptrvenckus">@ptrvenckus</a></li>
+            <li class="contacts__item"><strong>Email</strong>: <br>ptrvenckus@gmail.com</li>
+          </ul>
+        </section>
+        <section id="about-me" class="section about-section">
+          <h2 class="subheading subheading_big">About me</h2>
+          <p>I have studied Catholic Theology. When I was a student I was working as a journalist and translator.</p>
+          <p>I like to learn foreign languages. My hobby is to write poems.</p>
+          <p>I started to learn programming because it is interesting to me and it can help me better to express myself and may be to find some useful work.</p>
+        </section>
+        <section id="skills" class="section skills-section">
+          <h2 class="subheading subheading_big">My skills</h2>
+          <ol class="skills__list">
+            <li class="skills__item">HTML5 basics</li>
+            <li class="skills__item">CSS3 basics</li>
+            <li class="skills__item">JavaScript basics</li>
+            <li class="skills__item">Git basics and GitHub</li>
+            <li class="skills__item">Visual Studio Code</li>
+            <li class="skills__item">Figma basics</li>
+            <li class="skills__item">Bash (Shell) basics</li>
+          </ol>
+        </section>
+        <section id="code" class="section code-section">
+          <h2 class="subheading">Code example</h2>
+          <code>
+            function greet() {<br><br>
+              &nbsp;&nbsp;let myName = "Petras";<br><br>
+              &nbsp;&nbsp;return `Hello! I am ${myName}.`;<br>
+            }
+          </code>
+        </section>
+        <section id="work" class="section work-section">
+          <h2 class="subheading">Work experience</h2>
+          <p>I have very little work experience as a programmer. I have colaborated with programmers working in newspaper, but not in technical level. I can make webpage using html and css.</p>
+          <p>I have two certificates from freeCodeCamp:</p>
+          <ul>
+            <li><a href="https://www.freecodecamp.org/certification/fcc9a3353ec-7080-47df-93c0-e5a7e8a0ad54/responsive-web-design">responsive web design certification</a></li>
+            <li><a href="https://www.freecodecamp.org/certification/fcc9a3353ec-7080-47df-93c0-e5a7e8a0ad54/javascript-algorithms-and-data-structures">legacy javascript algorithms and data structures certification</a></li>
+          </ul>
+        </section>
+        <section id="projects" class="section projects-section">
+          <h2 class="subheading">Projects</h2>
+          <p>I hope that I will have a possibility to participate in some great project soon.</p>
+        </section>
+        <section id="education" class="section education-section">
+          <h2 class="subheading">Education</h2>
+          <p>I have studied Catholic Theology in Vytautas Magnus University, Kaunas, Lithuania.</p>
+          <p>I have learned about web design in freeCodeCamp and other online courses and tutorials.</p>
+        </section>
+        <section id="languages" class="section languages-section">
+          <h2 class="subheading">Languages</h2>
+          <p>I can write, speak, read:</p>
+          <ul>
+            <li>english</li>
+            <li>german</li>
+            <li>russian</li>
+            <li>spanish</li>
+            <li>lithuanian (mother language)</li>
+          </ul>
+        </section>
+      </main>
+      <footer class="footer">
+        <p class="footer-p">&copy; 2024</p>
+        <p class="footer-p"><a href="https://github.com/ptrvenckus">github: ptrvenckus</a></p>
+        <p class="footer-p"><a href="https://rs.school/courses/javascript-preschool-ru"><img class="rsschool-logo" src="./rsschool-logo.png" alt="rsschool logo"></a></p>
+      </footer>
+    </div>
   </body>
 </html>
