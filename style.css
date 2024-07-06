@@ -73,3 +73,10 @@ container {
 .skills__item {
   margin: 8px;
 }
+.code-section {
+  margin: 20px;
+}
+.work-section {
+  margin: 20px;
+  width: 70%;
+}
