@@ -80,3 +80,17 @@ container {
   margin: 20px;
   width: 70%;
 }
+.projects-section {
+  margin: 20px;
+  width: 20%;
+}
+
+.education-section {
+  margin: 20px;
+  width: 45%;
+}
+
+.languages-section {
+  margin: 20px;
+  width: 20%;
+}
