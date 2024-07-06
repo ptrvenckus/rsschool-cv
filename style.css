@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Karla", sans-serif;
+  font-style: normal;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+.title {
+  text-align: center;
+  font-weight: 800;
+  font-size: 4rem;
+  color: #123456;
+}
+.nav__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav__item {
+  list-style-type: none;
+  margin: 0 10px;
+  padding: 10px;
+  background-color: #123456;
+  border-radius: 20px;
+}
+.nav__link {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.main {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+.section {
+  background: #f3f3f3;
+}
+.subheading {
+  text-align: center;
+  padding: 0 10px;
+}
+
+.photo {
+  padding: 10px;
+}
+
+.contacts__item {
+  margin: 40px 10px 0;
+}
+
+.subheading_big {
+  margin-bottom: 40px;
+}
+.about-section {
+  width: 30%;
+  font-size: 18px;
+}
+.skills-section {
+  width: 20%;
+}
+.skills__list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.skills__item {
+  margin: 8px;
+}
+.code-section {
+  margin: 20px;
+}
+.work-section {
+  margin: 20px;
+  width: 70%;
+}
+.projects-section {
+  margin: 20px;
+  width: 20%;
+}
+
+.education-section {
+  margin: 20px;
+  width: 45%;
+}
+
+.languages-section {
+  margin: 20px;
+  width: 20%;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-p {
+  width: 30%;
+}
+
+.rsschool-logo {
+  width: 100px;
+}
